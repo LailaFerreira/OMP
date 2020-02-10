@@ -44,7 +44,9 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); 
+  scroll-behavior: smooth;
+}
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block; }
@@ -57,7 +59,9 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff; }
+  background-color: #fff;
+  overflow-x: hidden;
+ }
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -3426,6 +3430,7 @@ input[type="button"].btn-block {
   display: block; }
 
 .navbar {
+  text-transform: uppercase;
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9897,6 +9902,10 @@ textarea.form-control {
   animation: loader-dash 1.5s ease-in-out infinite;
   stroke-linecap: round; }
 
+  .uppercase{
+    text-transform: uppercase;
+  }
+
 @-webkit-keyframes loader-rotate {
   100% {
     -webkit-transform: rotate(360deg);
@@ -9932,36 +9941,3 @@ textarea.form-control {
 
 /*custom*/
 
-#contact-header{
-    width: 100%;
-    background: url('../images/bg_1.jpg') no-repeat center center fixed;
-    margin-bottom: 100px;
-    color: #fff;
-    height: 206px;
-      background-size: cover;
-      
-
-  }
-#contact-header::after{
-  opacity: .8;
-    background: #1566ad;
-}
-
-
-  #contact-header h2{
-    width: 100%;
-      text-align: center;
-      font-weight: bold;
-      font-size: 56px;
-      text-transform: uppercase;
-      font-family: Share, sans-serif;
-      padding: 80px 0 40px 0;
-      box-sizing: border-box;
-      color: white;
-      text-shadow: 1px 1px #cacaca;
-  }
-
-  #contact-header h2 span{
-    border: 3px solid rgb(244, 174, 39);
-      padding: 10px;
-  }
