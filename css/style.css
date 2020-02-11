@@ -9069,7 +9069,7 @@ textarea.form-control {
     width: 100%;
     display: block; 
   }
-  
+
     .ftco-footer .ftco-footer-widget h2 {
       font-weight: normal;
       color: #fff;
@@ -9947,5 +9947,11 @@ textarea.form-control {
 .partners{
     background-color: #fafafa;
     padding: 5px;
+}
+
+.logo-menu{
+  width: 16%;
+  float: right;
+  padding-top: 1.5%;
 }
 
