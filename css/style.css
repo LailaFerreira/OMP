@@ -8436,7 +8436,7 @@ h1, h2, h3, h4, h5,
   .owl-carousel .owl-item {
     opacity: .4; }
     .owl-carousel .owl-item.active {
-      opacity: 1; }
+      opacity: 6; }
   .owl-carousel .owl-nav {
     position: absolute;
     top: 50%;
@@ -8458,8 +8458,9 @@ h1, h2, h3, h4, h5,
 
       .owl-carousel .owl-item img
       {
+        opacity: 6;
         display: block;
-        width: 50% !important;
+        width: 45% !important;
       }
 
 
@@ -9946,7 +9947,7 @@ textarea.form-control {
 /*custom*/
 .partners{
     background-color: #fafafa;
-    padding: 5px;
+    padding: 16px 0 3px 0;
 }
 
 .logo-menu{
@@ -9955,3 +9956,18 @@ textarea.form-control {
   padding-top: 1.5%;
 }
 
+.logo-footer{
+  width: 2%;
+  margin-bottom: 0.5%;
+}
+
+.opacity-partners{
+  opacity: .2;
+     transition: 0.4s;
+
+}
+
+.opacity-partners:hover{
+   transition: 0.4s;
+  opacity: .9;
+}
