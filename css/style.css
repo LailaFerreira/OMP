@@ -7303,13 +7303,13 @@ button.bg-dark:focus {
     padding: 3rem !important; }
   .pt-md-5,
   .py-md-5 {
-    padding-top: 3rem !important; }
+    padding-top: 0rem !important; }
   .pr-md-5,
   .px-md-5 {
     padding-right: 3rem !important; }
   .pb-md-5,
   .py-md-5 {
-    padding-bottom: 3rem !important; }
+    padding-bottom: 0rem !important; }
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important; }
@@ -8434,9 +8434,9 @@ h1, h2, h3, h4, h5,
 .owl-carousel {
   position: relative; }
   .owl-carousel .owl-item {
-    opacity: .4; }
+    opacity: .6; }
     .owl-carousel .owl-item.active {
-      opacity: 6; }
+      opacity: 1; }
   .owl-carousel .owl-nav {
     position: absolute;
     top: 50%;
@@ -8458,11 +8458,17 @@ h1, h2, h3, h4, h5,
 
       .owl-carousel .owl-item img
       {
-        opacity: 6;
+        opacity: .6;
         display: block;
         width: 45% !important;
       }
 
+
+      .owl-carousel .owl-item img:hover
+      {
+        opacity: 1;
+        transition: 0.4s;
+      }
 
       .owl-carousel .owl-nav .owl-prev span:before,
       .owl-carousel .owl-nav .owl-next span:before {
@@ -9048,7 +9054,7 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 3.5em 0;
+  padding: 2rem 0;
   position: relative; }
 
 .ftco-no-pt {
@@ -9961,13 +9967,3 @@ textarea.form-control {
   margin-bottom: 0.5%;
 }
 
-.opacity-partners{
-  opacity: .2;
-     transition: 0.4s;
-
-}
-
-.opacity-partners:hover{
-   transition: 0.4s;
-  opacity: .9;
-}
