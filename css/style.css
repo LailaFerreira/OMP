@@ -7933,6 +7933,12 @@ button.bg-dark:focus {
 .text-center {
   text-align: center !important; }
 
+.text-justified{
+    text-align: justify;
+      text-justify: inter-word;
+
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important; }
